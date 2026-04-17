@@ -1,0 +1,159 @@
+Pharma‑Specific APIs (High Value)
+openFDA (FDA Open Data API) ⭐ Must‑use
+What it provides
+
+Drug labels, indications, contraindications
+Adverse event reports (FAERS)
+Drug recalls & enforcement actions
+Medical devices & diagnostics
+
+Why it’s important
+
+Official FDA data
+Real post‑market safety signals
+Widely used in pharmacovigilance & compliance
+
+Key endpoints
+
+/drug/label
+/drug/event
+/drug/enforcement
+/device/event
+
+Notes
+
+Free, public, rate‑limited
+Not for medical decision‑making (explicit disclaimer)
+
+🔗 https://open.fda.gov/
+ [open.fda.gov], [open.fda.gov], [publicapis.io]
+
+ClinicalTrials.gov API ⭐ Gold standard for trials
+What it provides
+
+Global clinical trial registry data
+Protocols, sponsors, phases
+Conditions, drugs, timelines, locations
+
+Why it’s important
+
+Required registry for many trials
+Extremely useful for pipeline analysis, competitor tracking
+
+Data refresh
+
+Updated daily (Mon–Fri)
+
+Example use cases
+
+Trial search dashboards
+Indication landscape analysis
+Trial density by geography
+
+🔗 https://clinicaltrials.gov/data-api/api
+ [clinicaltrials.gov]
+
+WHO ATC/DDD Index (drug classifications)
+What it provides
+
+ATC drug codes
+Therapeutic classification hierarchy
+
+Why it’s important
+
+Standardized global drug classification
+Essential for mapping drugs across datasets
+
+🔗 https://www.whocc.no/atc_ddd_index/
+(WHO source – commonly used with openFDA & trials)
+
+🧠 Healthcare & Medical Data APIs
+HealthData.gov API (HHS Open Data) ⭐
+What it provides
+
+Claims, utilization, coverage
+Public health & healthcare system data
+
+Why it’s important
+
+Official US healthcare datasets
+Good for payer, access, and policy analysis
+
+Scale
+
+23,000+ datasets available
+
+🔗 https://healthdata.gov
+ [healthdata.gov]
+
+NPPES API (US Provider Data)
+What it provides
+
+National Provider Identifier (NPI) registry
+Physician and organization metadata
+
+Why it’s useful
+
+Provider matching
+Territory & HCP analytics
+CRM enrichment
+
+🔗 https://npiregistry.cms.hhs.gov/api
+ [publicapis.io]
+
+Healthcare.gov API
+What it provides
+
+Insurance marketplace plan data
+Educational healthcare content
+
+Use cases
+
+Coverage comparisons
+Enrollment & access studies
+
+🔗 https://developer.healthcare.gov
+ [publicapis.io]
+
+🧬 Research, Genomics & Advanced Science
+NCBI APIs (PubMed, Gene, Drug, Clinical)
+What it provides
+
+Biomedical literature (PubMed)
+Genes, proteins, diseases
+Chemical & compound data
+
+Why it’s important
+
+Backbone of biomedical research
+Massive real‑world scientific corpus
+
+🔗 https://www.ncbi.nlm.nih.gov/home/develop/api/
+
+Open Disease / Disease.sh API
+What it provides
+
+Disease prevalence (COVID, flu, etc.)
+Country‑level and global metrics
+
+Use cases
+
+Epidemiology dashboards
+Trend tracking
+
+🔗 https://disease.sh
+ [bing.com]
+
+🧾 Healthcare NLP & Symptom APIs (Free Tiers)
+Infermedica API (freemium)
+What it provides
+
+Symptom analysis
+Triage logic (non‑diagnostic)
+
+Good for
+
+Symptom checker demos
+Patient flow tools
+
+🔗 https://developer.infermedica.com
